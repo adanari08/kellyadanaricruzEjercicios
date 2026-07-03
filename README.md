@@ -1,4 +1,4 @@
-# 🌐 Portafolio de Ejercicios de Programación Web
+#  Portafolio de Ejercicios de Programación Web
 
 Este repositorio contiene una colección de ejercicios realizados como parte de la materia de **Programación Web**. El objetivo de estas actividades es practicar los conceptos fundamentales del desarrollo web utilizando **HTML**, **CSS** y **JavaScript**.
 
