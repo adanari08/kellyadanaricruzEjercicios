@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Edad para Votar</title>
+
+    <link rel="stylesheet" href="css/ejercicio13.css">
+
+    <script src="js/ejercicio13.js"></script>
+
+    <!-- Librería para alertas -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+<div class="contenedor-calculadora">
+
+    <h1>Verificador para Votar</h1>
+
+    <p class="subtitulo">
+        Ingresa tu edad para verificar si puedes ejercer tu derecho al voto.
+    </p>
+
+    <div class="formulario">
+
+        <div class="grupo-campo">
+            <label for="edad">
+                Edad:
+            </label>
+
+            <input
+                type="text"
+                id="edad"
+                placeholder="Ejemplo: 20">
+        </div>
+
+        <button
+            type="button"
+            onclick="verificarEdad()"
+            class="boton-convertir">
+
+            Verificar
+
+        </button>
+
+        <div class="grupo-campo">
+
+            <label for="resultado">
+
+                Resultado:
+
+            </label>
+
+            <input
+                type="text"
+                id="resultado"
+                readonly
+                placeholder="Aquí aparecerá el resultado">
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
